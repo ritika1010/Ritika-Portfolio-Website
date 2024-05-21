@@ -1,3 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*==================== VARIABLES CSS ====================*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  /* Change favorite color */
+  --hue-color: 0; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 45%);
+  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --input-color: hsl(var(--hue-color), 70%, 96%);
+  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --container-color: #fff;
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+
+  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+  :root {
+      --big-font-size: 3rem;
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+  }
+}
+/*==================== BASE ====================*/
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -249,14 +319,36 @@ button:focus {
   height: 100%;
 }
 
+/* .home-header {
+  padding-top: 10px !important;
+} */
 .home-header {
-  padding-top: 100px !important;
+  display: flex;
+  align-items: center; /* Vertically center align items */
 }
 
+.name-container {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.heading {
+  margin: 0; /* Remove default margin */
+}
+
+.heading-name {
+  margin-top: 0; /* Remove default margin */
+}
+
+.additional-image {
+  display: flex;
+  justify-content: flex-end; /* Align image to the right */
+  align-items: center; /* Vertically center align items */
+  max-width: '60%'; 
+  max-height: '60%'
+}
 .home-section {
   position: relative;
   z-index: 1;
-  background-image: url('/Users/r_itika/Documents/Github/Ritika-Portfolio-Website/src/Assets/Untitled design.png');
   background-position: center;
   margin: 70px;
   background-repeat: no-repeat;
@@ -267,8 +359,8 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 1em !important;
-  color: whitesmoke;
-  font-family: "Orpheus Pro", sans-serif !important;
+  color: black;
+  font-family: 'Poppins', sans-serif !important;
   font-size: large;
   text-align: left;
 }
@@ -281,12 +373,12 @@ button:focus {
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
-  font-family: "Orpheus Pro" !important
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .main-name {
-  font-family: "Orpheus Pro", sans-serif !important;
-  color: whitesmoke;
+  font-family: 'Poppins', sans-serif !important;
+  color: grey;
 }
 
 .Typewriter__wrapper {
@@ -296,7 +388,7 @@ button:focus {
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  font-family: "Orpheus Pro", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   color: whitesmoke !important;
 }
 
@@ -319,7 +411,7 @@ button:focus {
 }
 
 .home-about-description {
-  font-family: "Orpheus Pro", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   color: black !important;
   padding-top: 10px !important;
   padding-bottom: 20px !important;
@@ -357,9 +449,7 @@ button:focus {
   padding-left: 15px;
 }
 
-.icon-colour {
-  color: #700c86 !important;
-}
+
 
 /* --------- */
 /* Footer */
@@ -426,7 +516,7 @@ button:focus {
   color: black !important;
   border:  none !important;
 
-  font-family: "Orpheus Pro", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background-color: transparent !important;
   opacity: transparent !important;
   transition: all 0.5s ease 0s !important;
@@ -445,8 +535,6 @@ button:focus {
   padding-right: 25px !important;
   height: auto !important;
 }
-
-
 
 .card-img-top {
   padding: 20px !important;
@@ -485,7 +573,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  font-family: "Orpheus Pro", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   color: black !important;
 }
 
@@ -526,7 +614,7 @@ button:focus {
 .quote-card-view {
   border: none !important;
   color: black !important;
-  font-family: "Orpheus Pro", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background-color: transparent !important;
 }
 
@@ -631,7 +719,7 @@ button:focus {
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
-  font-family: "Orpheus Pro", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .like-btn {
@@ -699,7 +787,7 @@ button:focus {
   color: black !important;
   border:  none !important;
   font-weight: 400;
-  font-family: "Orpheus Pro", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background-color: transparent !important;
   opacity: transparent !important;
   transition: all 0.5s ease 0s !important;

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Ritika-Portfolio-Website/static/css/main.1b2e5d5d.css",
+    "main.js": "/Ritika-Portfolio-Website/static/js/main.eb4476ff.js",
+    "static/js/787.7da95b79.chunk.js": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js",
+    "static/media/Untitled design.png": "/Ritika-Portfolio-Website/static/media/Untitled design.afb10fdab22964e735f8.png",
+    "static/media/Columbia_University_Thepharmadaily.png": "/Ritika-Portfolio-Website/static/media/Columbia_University_Thepharmadaily.c1f0ddc880e6b6329d5e.png",
+    "static/media/Ritika Deshpande CV.pdf": "/Ritika-Portfolio-Website/static/media/Ritika Deshpande CV.f0f243c771e54ce12a7a.pdf",
+    "static/media/pre.svg": "/Ritika-Portfolio-Website/static/media/pre.b589bc978134b7107bed.svg",
+    "index.html": "/Ritika-Portfolio-Website/index.html",
+    "main.1b2e5d5d.css.map": "/Ritika-Portfolio-Website/static/css/main.1b2e5d5d.css.map",
+    "main.eb4476ff.js.map": "/Ritika-Portfolio-Website/static/js/main.eb4476ff.js.map",
+    "787.7da95b79.chunk.js.map": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b2e5d5d.css",
+    "static/js/main.eb4476ff.js"
+  ]
+}

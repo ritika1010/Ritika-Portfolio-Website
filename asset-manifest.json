@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/Ritika-Portfolio-Website/static/css/main.d66db5c3.css",
-    "main.js": "/Ritika-Portfolio-Website/static/js/main.b89995f6.js",
+    "main.css": "/Ritika-Portfolio-Website/static/css/main.c56259d4.css",
+    "main.js": "/Ritika-Portfolio-Website/static/js/main.f9d3a30f.js",
     "static/js/787.7da95b79.chunk.js": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js",
     "static/media/ProfilePic.jpeg": "/Ritika-Portfolio-Website/static/media/ProfilePic.f13dad631f11970dbc09.jpeg",
+    "static/media/sih logo.png": "/Ritika-Portfolio-Website/static/media/sih logo.82de9f02cea9f29cfb88.png",
+    "static/media/Car logo.png": "/Ritika-Portfolio-Website/static/media/Car logo.27836e11cce1e1280f38.png",
+    "static/media/mealPlannerai.png": "/Ritika-Portfolio-Website/static/media/mealPlannerai.d6e957964e1745ce9ba3.png",
     "static/media/Columbia_University_Thepharmadaily.png": "/Ritika-Portfolio-Website/static/media/Columbia_University_Thepharmadaily.c1f0ddc880e6b6329d5e.png",
     "static/media/airmed_solutions_cover.jpeg": "/Ritika-Portfolio-Website/static/media/airmed_solutions_cover.5bea677cdb3d25bdeeab.jpeg",
+    "static/media/Gitglance logo.png": "/Ritika-Portfolio-Website/static/media/Gitglance logo.e98d0c1b00a1a2da3855.png",
     "static/media/Ritika Deshpande CV.pdf": "/Ritika-Portfolio-Website/static/media/Ritika Deshpande CV.f0f243c771e54ce12a7a.pdf",
+    "static/media/dbcon.png": "/Ritika-Portfolio-Website/static/media/dbcon.0f55c7367b869f0d5566.png",
+    "static/media/ecommerce.jpeg": "/Ritika-Portfolio-Website/static/media/ecommerce.eb9a140d098d13821b5a.jpeg",
+    "static/media/mlh logo.png": "/Ritika-Portfolio-Website/static/media/mlh logo.f0f3987b421b9add44b5.png",
     "static/media/DB logo.jpeg": "/Ritika-Portfolio-Website/static/media/DB logo.f93f0c3b162769fdd8c4.jpeg",
     "static/media/pre.svg": "/Ritika-Portfolio-Website/static/media/pre.b589bc978134b7107bed.svg",
     "index.html": "/Ritika-Portfolio-Website/index.html",
-    "main.d66db5c3.css.map": "/Ritika-Portfolio-Website/static/css/main.d66db5c3.css.map",
-    "main.b89995f6.js.map": "/Ritika-Portfolio-Website/static/js/main.b89995f6.js.map",
+    "main.c56259d4.css.map": "/Ritika-Portfolio-Website/static/css/main.c56259d4.css.map",
+    "main.f9d3a30f.js.map": "/Ritika-Portfolio-Website/static/js/main.f9d3a30f.js.map",
     "787.7da95b79.chunk.js.map": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d66db5c3.css",
-    "static/js/main.b89995f6.js"
+    "static/css/main.c56259d4.css",
+    "static/js/main.f9d3a30f.js"
   ]
 }

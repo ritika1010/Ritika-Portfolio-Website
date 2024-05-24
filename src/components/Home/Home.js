@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Image, Card } from "react-bootstrap";
 import additionalImage from "../../Assets/ProfilePic.jpeg";
-import SimpleWordcloud from "../About/WordCloud";
+import SimpleWordcloud from "./WordCloud";
 import Projects from "../Projects/Projects";
 
 

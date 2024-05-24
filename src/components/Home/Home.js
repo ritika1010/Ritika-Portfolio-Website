@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Container, Row, Col, Image, Card } from "react-bootstrap";
 import additionalImage from "../../Assets/ProfilePic.jpeg";
 import SimpleWordcloud from "../About/WordCloud";
+import Projects from "../Projects/Projects";
+
 
 function Home() {
   const [shuffleKey, setShuffleKey] = useState(0);
@@ -40,6 +42,8 @@ function Home() {
               </Row>
             </Col>
           </Row>
+
+          <Projects></Projects>
         </Container>
       </Container>
     </section>

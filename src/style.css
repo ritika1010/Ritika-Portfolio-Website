@@ -160,7 +160,7 @@ button:focus {
 
 .navbar-toggler {
   position: relative !important;
-  background-color: rgba(18, 175, 238, 0.7) !important; /* Translucent blue color */
+  background-color: black!important; /* Translucent blue color */
   border-color: transparent !important;
 }
 
@@ -332,11 +332,13 @@ button:focus {
 }
 
 .heading {
+  font-size: 1.2em !important;
   margin: 0; /* Remove default margin */
 }
 
 .heading-name {
   margin-top: 0; /* Remove default margin */
+
 }
 
 .additional-image {
@@ -352,10 +354,12 @@ button:focus {
   position: relative;
   z-index: 1;
   background-position: center;
-  margin: 70px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  margin-right: 40px;
   background-repeat: no-repeat;
   padding: 30px;
-  padding-bottom: 10px !important;
+  padding-bottom: 0px !important;
   padding-top: 10px !important;
 }
 
@@ -381,6 +385,8 @@ button:focus {
 .main-name {
   font-family: 'Poppins', sans-serif !important;
   color: grey;
+  font-size: 0.7em !important;
+
 }
 
 .Typewriter__wrapper {
@@ -500,7 +506,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px ;
   padding-bottom: 30px !important;
   /* background-image: var(--section-background-color) !important; */
 }
@@ -572,7 +578,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   font-family: 'Poppins', sans-serif !important;
@@ -795,4 +801,3 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
-

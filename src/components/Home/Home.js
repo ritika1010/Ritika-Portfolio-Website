@@ -37,13 +37,12 @@ function Home() {
             <Col md={5} className="additional-image">
               <Row>
                 <Col>
-                  <Image src={additionalImage} fluid />
+                  <Image src={additionalImage} fluid style={{  height: "500px", width: "auto" }} />
                 </Col>
               </Row>
             </Col>
           </Row>
-
-          <Projects></Projects>
+          <Projects className="custom-projects"></Projects>
         </Container>
       </Container>
     </section>

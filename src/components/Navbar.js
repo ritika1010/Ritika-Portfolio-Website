@@ -28,6 +28,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
+        
         <Navbar.Brand href="/" className="d-flex">
           Get To Know Ritika
         </Navbar.Brand>
@@ -43,6 +44,15 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav.Item className="fork-btn">
+              <Button
+                href="https://www.linkedin.com/in/ritikadeshpande/"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <FaLinkedinIn />
+              </Button>
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 Home
@@ -80,17 +90,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://www.linkedin.com/in/ritikadeshpande/"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <FaLinkedinIn />
-              </Button>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

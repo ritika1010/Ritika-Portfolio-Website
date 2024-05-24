@@ -341,11 +341,13 @@ button:focus {
 
 .additional-image {
   display: flex;
-  justify-content: flex-end; /* Align image to the right */
-  align-items: center; /* Vertically center align items */
-  max-width: '60%'; 
-  max-height: '60%'
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+  max-height: 100vh; /* Set maximum height to viewport height */
+  margin: auto;
 }
+
 .home-section {
   position: relative;
   z-index: 1;
@@ -353,12 +355,12 @@ button:focus {
   margin: 70px;
   background-repeat: no-repeat;
   padding: 30px;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
 }
 
 .home-content {
-  padding: 9rem 0 1em !important;
+  padding: 1rem 0 1em !important;
   color: black;
   font-family: 'Poppins', sans-serif !important;
   font-size: large;

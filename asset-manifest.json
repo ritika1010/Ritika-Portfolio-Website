@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Ritika-Portfolio-Website/static/css/main.01be7de7.css",
-    "main.js": "/Ritika-Portfolio-Website/static/js/main.c906d427.js",
+    "main.css": "/Ritika-Portfolio-Website/static/css/main.d66db5c3.css",
+    "main.js": "/Ritika-Portfolio-Website/static/js/main.b89995f6.js",
     "static/js/787.7da95b79.chunk.js": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js",
-    "static/media/ProfilePic.JPG": "/Ritika-Portfolio-Website/static/media/ProfilePic.ea02605af224cb08859a.JPG",
+    "static/media/ProfilePic.jpeg": "/Ritika-Portfolio-Website/static/media/ProfilePic.f13dad631f11970dbc09.jpeg",
     "static/media/Columbia_University_Thepharmadaily.png": "/Ritika-Portfolio-Website/static/media/Columbia_University_Thepharmadaily.c1f0ddc880e6b6329d5e.png",
+    "static/media/airmed_solutions_cover.jpeg": "/Ritika-Portfolio-Website/static/media/airmed_solutions_cover.5bea677cdb3d25bdeeab.jpeg",
     "static/media/Ritika Deshpande CV.pdf": "/Ritika-Portfolio-Website/static/media/Ritika Deshpande CV.f0f243c771e54ce12a7a.pdf",
+    "static/media/DB logo.jpeg": "/Ritika-Portfolio-Website/static/media/DB logo.f93f0c3b162769fdd8c4.jpeg",
     "static/media/pre.svg": "/Ritika-Portfolio-Website/static/media/pre.b589bc978134b7107bed.svg",
     "index.html": "/Ritika-Portfolio-Website/index.html",
-    "main.01be7de7.css.map": "/Ritika-Portfolio-Website/static/css/main.01be7de7.css.map",
-    "main.c906d427.js.map": "/Ritika-Portfolio-Website/static/js/main.c906d427.js.map",
+    "main.d66db5c3.css.map": "/Ritika-Portfolio-Website/static/css/main.d66db5c3.css.map",
+    "main.b89995f6.js.map": "/Ritika-Portfolio-Website/static/js/main.b89995f6.js.map",
     "787.7da95b79.chunk.js.map": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01be7de7.css",
-    "static/js/main.c906d427.js"
+    "static/css/main.d66db5c3.css",
+    "static/js/main.b89995f6.js"
   ]
 }

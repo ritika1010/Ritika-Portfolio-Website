@@ -29,7 +29,7 @@ function NavBar() {
     >
       <Container>
         
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand to="/" as={Link} className="d-flex">
           Get To Know Ritika
         </Navbar.Brand>
         <Navbar.Toggle

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ritika-Portfolio-Website/static/css/main.c56259d4.css",
-    "main.js": "/Ritika-Portfolio-Website/static/js/main.32055dc5.js",
+    "main.js": "/Ritika-Portfolio-Website/static/js/main.7a6336ed.js",
     "static/js/787.7da95b79.chunk.js": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js",
     "static/media/ProfilePic.jpeg": "/Ritika-Portfolio-Website/static/media/ProfilePic.f13dad631f11970dbc09.jpeg",
     "static/media/sih logo.png": "/Ritika-Portfolio-Website/static/media/sih logo.82de9f02cea9f29cfb88.png",
@@ -18,11 +18,11 @@
     "static/media/pre.svg": "/Ritika-Portfolio-Website/static/media/pre.b589bc978134b7107bed.svg",
     "index.html": "/Ritika-Portfolio-Website/index.html",
     "main.c56259d4.css.map": "/Ritika-Portfolio-Website/static/css/main.c56259d4.css.map",
-    "main.32055dc5.js.map": "/Ritika-Portfolio-Website/static/js/main.32055dc5.js.map",
+    "main.7a6336ed.js.map": "/Ritika-Portfolio-Website/static/js/main.7a6336ed.js.map",
     "787.7da95b79.chunk.js.map": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c56259d4.css",
-    "static/js/main.32055dc5.js"
+    "static/js/main.7a6336ed.js"
   ]
 }

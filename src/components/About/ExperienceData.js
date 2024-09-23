@@ -3,8 +3,20 @@
 import columbialogo from "../../Assets/Columbia_University_Thepharmadaily.png";
 import dbLogo from "../../Assets/DB logo.jpeg";
 import airmedLogo from "../../Assets/airmed_solutions_cover.jpeg";
+import sumlyLogo from "../../Assets/Sumly.png";
+
 
 const experienceData = [
+  {
+    imgPath: columbialogo,
+    title: "Research Assistant",
+    link: "https://www.columbia.edu/",
+  },
+  {
+    imgPath: sumlyLogo,
+    title: "Software Engineer Intern",
+    link: "https://www.getsumly.com/",
+  },
   {
     imgPath: columbialogo,
     title: "Teaching Assistant",

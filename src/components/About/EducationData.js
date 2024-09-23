@@ -8,7 +8,7 @@ const educationData = [
     imgPath: columbialogo,
     title: "Masters in Computer Science",
     link: "https://www.columbia.edu/",
-    description: "MLH Hackathon | Cloud Computing and Big Data, Advance Software Engineering, Programming Languages and Translators, Databases, Applied Machine Learning, NLP, Advance Databases, Data Visualization"
+    description: "MLH Hackathon | Cloud Computing and Big Data, Advance Software Engineering, Programming Languages and Translators, Databases, Applied Machine Learning, NLP, Advance Databases, Data Visualization, Operating Systems, Analysis of Algorithms"
   },
   {
     imgPath: pictlogo,

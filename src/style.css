@@ -92,6 +92,22 @@ button:focus {
 /* --------- */
 /*  Preloader */
 /* --------- */
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
 #preloader {
   position: fixed;
   top: 0;
@@ -349,8 +365,11 @@ button:focus {
   max-height: 100vh; /* Set maximum height to viewport height */
   margin: auto;
 }
-
 .home-section {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
   position: relative;
   z-index: 1;
   background-position: center;
@@ -361,6 +380,152 @@ button:focus {
   padding: 30px;
   padding-bottom: 0px !important;
   padding-top: 10px !important;
+}
+
+.home-content {
+  display: flex; /* Enable flexbox for home content */
+  flex-direction: row; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 1rem 0 1em !important;
+  color: black;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: large;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2.4em !important;
+  padding-left: 50px !important;
+}
+
+.heading-name {
+  font-size: 2.5em !important;
+  padding-left: 45px !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.main-name {
+  font-family: 'Poppins', sans-serif !important;
+  color: grey;
+  font-size: 0.6em !important;
+}
+
+.Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: whitesmoke !important;
+  font-weight: 600 !important;
+}
+
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  font-family: 'Poppins', sans-serif !important;
+  color: whitesmoke !important;
+}
+
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 1.4em !important;
+    font-weight: 500 !important;
+    position: absolute !important;
+  }
+  .Typewriter__cursor {
+    display: none !important;
+  }
+}
+
+.home-about-section {
+  position: relative;
+  padding-bottom: 40px !important;
+  padding-top: 0px !important;
+}
+
+.home-about-description {
+  font-family: 'Poppins', sans-serif !important;
+  color: black !important;
+  padding-top: 10px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
+.home-about-body {
+  padding-top: 50px;
+  font-size: 1.2em !important;
+  text-align: left;
+}
+
+.home-about-social {
+  text-align: center !important;
+  padding-top: 25px;
+  color: black !important;
+}
+
+.home-about-social-links {
+  justify-content: center !important;
+  padding-top: 15px !important;
+  display: inline-block !important;
+  position: relative !important;
+  padding-inline-start: 0 !important;
+}
+
+.social-icons {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* --------- */
+/* Footer */
+/* --------- */
+.footer {
+  background-color: black;
+  bottom: 0 !important;
+  padding-top: 10px !important;
+}
+
+.footer-copywright {
+  text-align: center !important;
+}
+
+.footer-body {
+  z-index: 1;
+  text-align: center !important;
+}
+
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: white !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.footer-icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
+}
+
+/* .home-section {
+  position: relative;
+  z-index: 1;
+  background-position: center;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  margin-right: 40px;
+  background-repeat: no-repeat;
+  padding: 30px;
+  padding-bottom: 0px !important;
+  padding-top: 10px !important;
+  
 }
 
 .home-content {
@@ -462,7 +627,7 @@ button:focus {
 /* --------- */
 /* Footer */
 /* --------- */
-.footer {
+/* .footer {
   background-color: black;
   bottom: 0 !important;
   padding-top: 10px !important;
@@ -496,7 +661,7 @@ button:focus {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
-}
+} */
 
 .blockquote-footer {
   color: #a588c0 !important;

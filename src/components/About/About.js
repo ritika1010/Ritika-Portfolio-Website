@@ -40,11 +40,11 @@ function About() {
         </Row>
       </Container>
 
-      <Container>
+      {/* <Container>
         <h1 className="project-heading">Professional Skillset</h1>
         <Techstack />
         <Toolstack />
-      </Container>
+      </Container> */}
     </Container>
   );
 }

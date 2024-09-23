@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Ritika-Portfolio-Website/static/css/main.c56259d4.css",
-    "main.js": "/Ritika-Portfolio-Website/static/js/main.1fbf7845.js",
+    "main.css": "/Ritika-Portfolio-Website/static/css/main.80c4bc1f.css",
+    "main.js": "/Ritika-Portfolio-Website/static/js/main.8da2b594.js",
     "static/js/787.7da95b79.chunk.js": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js",
-    "static/media/ProfilePic.jpeg": "/Ritika-Portfolio-Website/static/media/ProfilePic.f13dad631f11970dbc09.jpeg",
     "static/media/sih logo.png": "/Ritika-Portfolio-Website/static/media/sih logo.82de9f02cea9f29cfb88.png",
     "static/media/Car logo.png": "/Ritika-Portfolio-Website/static/media/Car logo.27836e11cce1e1280f38.png",
+    "static/media/profile.jpeg": "/Ritika-Portfolio-Website/static/media/profile.d3e859fe3c87984d1509.jpeg",
     "static/media/mealPlannerai.png": "/Ritika-Portfolio-Website/static/media/mealPlannerai.d6e957964e1745ce9ba3.png",
     "static/media/Columbia_University_Thepharmadaily.png": "/Ritika-Portfolio-Website/static/media/Columbia_University_Thepharmadaily.c1f0ddc880e6b6329d5e.png",
     "static/media/airmed_solutions_cover.jpeg": "/Ritika-Portfolio-Website/static/media/airmed_solutions_cover.5bea677cdb3d25bdeeab.jpeg",
@@ -18,12 +18,12 @@
     "static/media/DB logo.jpeg": "/Ritika-Portfolio-Website/static/media/DB logo.f93f0c3b162769fdd8c4.jpeg",
     "static/media/pre.svg": "/Ritika-Portfolio-Website/static/media/pre.b589bc978134b7107bed.svg",
     "index.html": "/Ritika-Portfolio-Website/index.html",
-    "main.c56259d4.css.map": "/Ritika-Portfolio-Website/static/css/main.c56259d4.css.map",
-    "main.1fbf7845.js.map": "/Ritika-Portfolio-Website/static/js/main.1fbf7845.js.map",
+    "main.80c4bc1f.css.map": "/Ritika-Portfolio-Website/static/css/main.80c4bc1f.css.map",
+    "main.8da2b594.js.map": "/Ritika-Portfolio-Website/static/js/main.8da2b594.js.map",
     "787.7da95b79.chunk.js.map": "/Ritika-Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c56259d4.css",
-    "static/js/main.1fbf7845.js"
+    "static/css/main.80c4bc1f.css",
+    "static/js/main.8da2b594.js"
   ]
 }

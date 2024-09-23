@@ -54,9 +54,7 @@ function Home() {
                     <a href="https://github.com/ritika1010" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "5px" }}>github.com/ritika1010</a>
                   </p>
                   <p>
-                    <FaUserFriends />:
-                    Rewriting The Code <a href="https://rewritingthecode.org/" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "5px" }}>RTC</a> 
-                    , AnitaB <a href="https://anitaB.org" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "5px" }}>AnitaB.org</a>
+                    <FaUserFriends />: Rewriting The Code <a href="https://rewritingthecode.org/" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "5px" }}>RTC</a>, AnitaB <a href="https://anitaB.org" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "5px" }}>AnitaB.org</a>
                   </p>
                 </div>
 
